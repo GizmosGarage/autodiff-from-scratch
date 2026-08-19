@@ -1,5 +1,8 @@
 from engine import Value
 
 a = Value(2.0)
+b = Value(3.0)
 
-print(a)
+c = a * b
+
+print(c)
